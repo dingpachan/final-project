@@ -133,8 +133,7 @@ FB.init({
     status: true,
     cookie: true,
     xfbml: true,
-    channelURL: 'http://dingpachan.github.io/final-project/', //
-    oauth: true
+    channelURL: 'http://dingpachan.github.io/final-project/', 
 });
 function fbshare(v1,img){
 	var cap=" 大家好！我是【"+v1+"】";
@@ -173,8 +172,8 @@ function sd(cap,img){
 			} else { 
 				alert('分享失敗');
 			}
-			FB.logout(function(response) {
-			});
+			// FB.logout(function(response) {
+			// });
 		} 
 	);
 }
