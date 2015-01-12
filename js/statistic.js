@@ -23,7 +23,7 @@
                 success: function(count4){
                   //alert("Ojipockle4 gets " + count4 + " votes.");
                   array.push(count4);
-                  query.equalTo("Ojipockle","oji4");
+                  query.equalTo("Ojipockle","oji5");
                   query.count({
                     success: function(count5){
                       //alert("Ojipockle5 gets "+ count5 + " votes.");
