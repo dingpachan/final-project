@@ -29,7 +29,8 @@
 
 			var username = $("#new_username").val(); 
 			var password = $("#new_password").val();
-			if(username.match(/w)){
+			alert(username);
+			if(username.match(/w+)){
 				alert("yes");
 			}else{
 				alert("no");
