@@ -13,7 +13,7 @@ $(document).ready(function(){
 			error: function(user, error) {
 			// The login failed. Check error to see why.
 				alert('帳號或密碼錯誤!');
-				window.location.href = "index.html";
+				window.location.href = "login.html";
 			}
 		});
 	});
@@ -41,12 +41,12 @@ $(document).ready(function(){
 				error: function(user, error) {
 					// The login failed. Check error to see why.
 					alert('此帳號已被使用過了喔!');
-					window.location.href = "index.html";
+					window.location.href = "login.html";
 				}
 			});	
 		}else{
 			alert("帳號密碼格式錯誤");
-			window.location.href = "index.html";
+			window.location.href = "login.html";
 		}
 	});		
 });
