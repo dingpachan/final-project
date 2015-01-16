@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$(document).on("submit", "#signUp", function(e) {
     	e.preventDefault();
 		Parse.initialize("c4azxhlcBAObQPSxQ6jY4lf8dbFEPBD6y7zgIHD0", "2uGIxUaShVOXpBWyn4UwRoPK1Tali8MrKf4mp0Xp");
-    		var re = /\w/;
+    		var re = /^[A-Za-z0-9]*$/;
 		var username = $("#new_username").val(); 
 		var password = $("#new_password").val();
 		var id_ok = re.exec(username);
